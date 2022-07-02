@@ -1,0 +1,6 @@
+INFO:root:This is my first logging code
+INFO:root:[1, 2, 3, 4, 5]
+INFO:root:This is info logging code
+WARNING:root:This is a warning message
+ERROR:root:This is a error message
+CRITICAL:root:This is a critical message

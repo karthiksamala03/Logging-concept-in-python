@@ -1,0 +1,8 @@
+INFO 2022-07-02 17:55:29,706 root : we are trying to read the file
+CRITICAL 2022-07-02 17:55:29,706 root : This is critical situation
+ERROR 2022-07-02 17:55:29,707 root : [Errno 2] No such file or directory: 'karthik.txt'
+ERROR 2022-07-02 17:55:29,707 root : [Errno 2] No such file or directory: 'karthik.txt'
+Traceback (most recent call last):
+  File "C:/Users/use/PycharmProjects/logging/logging with exception2.py", line 6, in <module>
+    with open("karthik.txt", "r"):
+FileNotFoundError: [Errno 2] No such file or directory: 'karthik.txt'

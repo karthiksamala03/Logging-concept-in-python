@@ -1,0 +1,40 @@
+
+
+Five types of log labelling we have in python
+
+1. info    --> generic like print
+2. Debug
+3. warning
+4. Error
+5. Critical
+
+info:
+	It is generic like print
+	
+	eg. import logging
+		logging.basicConfig(filename='test.log', level=logging.info)
+		logging.info('This is my very first logging code')
+	
+Debug:
+	It is used for investigating code
+
+logging.debug('This is a debug message')
+logging.warning("This is a warning message")
+logging.error("This is a error message")
+logging.critical("This is a critical message")
+
+Numbering system(severity level):
+	Debug - 10
+	info - 20
+	waring - 30
+	error - 40
+	critical - 50
+
+logging.basicConfig(filename='example.log', level=logging.DEBUG, format='%(levelname)s %(asctime)s %(name)s : %(message)s')
+
+try:
+	logging.info('Trying to read the file')
+    with open("karthik.txt", "r"):
+		logging.info('reading the file successfully completed')
+except Exception as e:
+	logging.exception(e)
