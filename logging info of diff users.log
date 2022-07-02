@@ -1,0 +1,4 @@
+INFO 2022-07-02 20:35:27,492 root : user Root -  main log
+INFO 2022-07-02 20:35:27,492 User1 : This is info for USER1
+DEBUG 2022-07-02 20:35:27,492 User1 : This is debug for USER1
+INFO 2022-07-02 20:35:27,492 User2 : This is info for USER2
