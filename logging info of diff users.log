@@ -1,4 +1,0 @@
-INFO 2022-07-02 19:02:12,019 root : logging of code for multiple users
-INFO 2022-07-02 19:02:12,019 logger1.area1 : This is info for logger1
-DEBUG 2022-07-02 19:02:12,019 logger1.area1 : This is debug for logger1
-INFO 2022-07-02 19:02:12,020 logger2.area2 : This is info for logger2
